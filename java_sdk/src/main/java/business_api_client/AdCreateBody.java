@@ -20,7 +20,7 @@ import java.util.List;
  * AdCreateBody
  */
 
-@javax.annotation.Generated(value = "com.tiktok.codegen.JavatiktokcodegenGenerator", date = "2025-07-03T14:36:18.961395-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2026-02-27T14:19:48.489627-08:00[America/Los_Angeles]")
 public class AdCreateBody {
   @JsonProperty("adgroup_id")
   private String adgroupId = null;
@@ -37,10 +37,10 @@ public class AdCreateBody {
   }
 
    /**
-   * Ad group ID
+   * Get adgroupId
    * @return adgroupId
   **/
-  @Schema(required = true, description = "Ad group ID")
+  @Schema(required = true, description = "")
   public String getAdgroupId() {
     return adgroupId;
   }
@@ -55,10 +55,10 @@ public class AdCreateBody {
   }
 
    /**
-   * Advertiser ID
+   * Get advertiserId
    * @return advertiserId
   **/
-  @Schema(required = true, description = "Advertiser ID")
+  @Schema(required = true, description = "")
   public String getAdvertiserId() {
     return advertiserId;
   }
@@ -78,10 +78,10 @@ public class AdCreateBody {
   }
 
    /**
-   * Advertising creatives.
+   * Get creatives
    * @return creatives
   **/
-  @Schema(required = true, description = "Advertising creatives.")
+  @Schema(required = true, description = "")
   public List<AdcreateCreatives> getCreatives() {
     return creatives;
   }

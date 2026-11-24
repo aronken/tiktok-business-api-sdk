@@ -10,7 +10,7 @@ import {PixelContent} from './PixelContent.js';
 /**
  * The PixelProperties model module.
  * @module model/PixelProperties
- * @version 0.1.7
+ * @version 1.2.1
  */
 export class PixelProperties {
   /**

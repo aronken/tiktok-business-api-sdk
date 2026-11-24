@@ -10,7 +10,7 @@ import {BcmemberinviteExtUserRole} from './BcmemberinviteExtUserRole.js';
 /**
  * The MemberInviteBody model module.
  * @module model/MemberInviteBody
- * @version 0.1.7
+ * @version 1.2.1
  */
 export class MemberInviteBody {
   /**

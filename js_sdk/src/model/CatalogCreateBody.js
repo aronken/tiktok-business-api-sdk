@@ -10,7 +10,7 @@ import {CatalogcreateCatalogConf} from './CatalogcreateCatalogConf.js';
 /**
  * The CatalogCreateBody model module.
  * @module model/CatalogCreateBody
- * @version 0.1.7
+ * @version 1.2.1
  */
 export class CatalogCreateBody {
   /**

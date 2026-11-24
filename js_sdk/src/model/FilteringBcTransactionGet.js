@@ -9,7 +9,7 @@ import {ApiClient} from '../ApiClient.js';
 /**
  * The FilteringBcTransactionGet model module.
  * @module model/FilteringBcTransactionGet
- * @version 0.1.7
+ * @version 1.2.1
  */
 export class FilteringBcTransactionGet {
   /**

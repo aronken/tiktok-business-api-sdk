@@ -10,7 +10,7 @@ import {ReportTaskCreateBodyFiltering} from './ReportTaskCreateBodyFiltering.js'
 /**
  * The ReportTaskCreateBody model module.
  * @module model/ReportTaskCreateBody
- * @version 0.1.7
+ * @version 1.2.1
  */
 export class ReportTaskCreateBody {
   /**

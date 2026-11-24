@@ -19,7 +19,7 @@ import java.util.List;
  * Settings about targeting expansion
  */
 @Schema(description = "Settings about targeting expansion")
-@javax.annotation.Generated(value = "com.tiktok.codegen.JavatiktokcodegenGenerator", date = "2025-07-03T14:36:18.961395-07:00[America/Los_Angeles]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2025-12-02T15:00:15.368932-08:00[America/Los_Angeles]")
 public class AdgroupcreateTargetingExpansion {
   @JsonProperty("expansion_enabled")
   private Boolean expansionEnabled = null;

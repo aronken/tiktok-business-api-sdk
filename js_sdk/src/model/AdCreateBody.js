@@ -10,16 +10,16 @@ import {AdcreateCreatives} from './AdcreateCreatives.js';
 /**
  * The AdCreateBody model module.
  * @module model/AdCreateBody
- * @version 0.1.7
+ * @version 1.2.1
  */
 export class AdCreateBody {
   /**
    * Constructs a new <code>AdCreateBody</code>.
    * @alias module:model/AdCreateBody
    * @class
-   * @param adgroup_id {String} Ad group ID
-   * @param advertiser_id {String} Advertiser ID
-   * @param creatives {Array.<module:model/AdcreateCreatives>} Advertising creatives.
+   * @param adgroup_id {String} 
+   * @param advertiser_id {String} 
+   * @param creatives {Array.<module:model/AdcreateCreatives>} 
    */
   constructor(adgroup_id, advertiser_id, creatives) {
     this.adgroup_id = adgroup_id;
@@ -49,19 +49,16 @@ export class AdCreateBody {
 }
 
 /**
- * Ad group ID
  * @member {String} adgroup_id
  */
 AdCreateBody.prototype.adgroup_id = undefined;
 
 /**
- * Advertiser ID
  * @member {String} advertiser_id
  */
 AdCreateBody.prototype.advertiser_id = undefined;
 
 /**
- * Advertising creatives.
  * @member {Array.<module:model/AdcreateCreatives>} creatives
  */
 AdCreateBody.prototype.creatives = undefined;
